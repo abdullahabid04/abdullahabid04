@@ -1,37 +1,61 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Abdullah Abid
-=====================================================================================================================================
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)# I'm Abdullah Abid
 
-AI/ML Expert and Software Developer
------------------------------------
+**Software Developer | Cloud & Backend Focused | IoT, AI, SaaS Enthusiast**
 
-As Founder and CEO of Cosmos Algos, I bring extensive expertise in AI and machine learning, focusing on application and software development. With pivotal roles at Deep Embed and CARE, I've contributed to AI education and cutting-edge solutions. Leading a dedicated team at Cosmos Algos, we prioritize transformative software solutions, emphasizing excellence and innovation. Eager to connect for mutual growth at the intersection of software development and machine learning.
+---
 
-* 🌍  I'm based in Pakistan
-* ✉️  You can contact me at [abdrps2004@gmail.com](mailto:abdrps2004@gmail.com)
+### 🚀 About Me
 
-<a href="https://www.github.com/abdullahabid04" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/abdullahabid04?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+I'm a passionate software developer with 4+ years of hands-on experience, specializing in building clean, scalable, and high-performance applications across web, mobile, and IoT domains. My journey began in 2020 with a curiosity for problem-solving and quickly turned into a passion for creating real-world solutions.
 
-### Skills
+- 🔭 Currently CEO & full-stack contributor at **Cosmos Algos**, leading the development of IoT-based SaaS platforms.
+- 🛠️ Building across **cloud**, **backend**, and **automation** — always with a strong product mindset.
+- 🌍 Open to full-time remote opportunities where I can contribute and grow with a purpose-driven team.
 
+---
 
-<p align="left">
-<a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a><a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg" width="36" height="36" alt="Dart" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://mui.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg" width="36" height="36" alt="Material UI" /></a><a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg" width="36" height="36" alt="Fast API" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a><a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg" width="36" height="36" alt="Flutter" /></a><a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg" width="36" height="36" alt="TensorFlow" /></a><a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg" width="36" height="36" alt="PyTorch" /></a><a href="https://www.raspberrypi.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi" /></a>
-</p>
+### 💡 Career Highlights
 
+- 🚀 Founder-level contributor to 3 IoT-based SaaS platforms, handling everything from backend logic to frontend interfaces.
+- 📱 Built and shipped multiple mobile/web applications using **Flutter**, **Laravel**, and **AWS**.
+- ☁️ Designed and deployed scalable, cloud-native backends (Laravel, AWS, MySQL, RESTful APIs).
+- 🛠️ Created automation tools in **Python** to streamline development workflows.
+- 🤝 Developed innovative apps at the **Center for Automation, Robotics & Embedded Systems (CARE)**, integrating cloud, IoT, and edge technologies.
 
-### Socials
+---
 
-<p align="left"> <a href="https://www.dev.to/abdullahabid04" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="32" height="32" /> </picture> </a> <a href="https://www.facebook.com/abdullah.abid.04" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /> </picture> </a> <a href="https://www.github.com/abdullahabid04" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="http://www.instagram.com/abdullahabid04" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/abdullahabid04" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="http://www.medium.com/abdrps2004" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /> </picture> </a> <a href="https://www.stackoverflow.com/users/17730557/abdullah-abid" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /> </picture> </a> <a href="https://www.x.com/abdullahabid_04" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a> <a href="https://www.threads.net/@abdullahabid04" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg" width="32" height="32" /> </picture> </a></p>
+### 🛠️ Skills & Tools
 
-### Badges
+- **Languages:** Python, PHP, JavaScript, C++
+- **Frameworks:** Laravel, Flutter, PyQt5
+- **Cloud:** AWS (Amazon Web Services)
+- **Databases:** MySQL
+- **Dev Tools:** Git, Linux, REST APIs, MVC, Clean Architecture
+- **Expertise:** Full-Stack Development, Mobile/Web App Development, IoT Systems, Automation, API & Database Design, OOP, Embedded Systems, Signal Processing
 
-<b>My GitHub Stats</b>
+---
 
-<a href="http://www.github.com/abdullahabid04"><img src="https://github-readme-stats.vercel.app/api?username=abdullahabid04&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="abdullahabid04's GitHub stats" /></a>
+### 🌱 What I'm Learning / Exploring
 
-<a href="http://www.github.com/abdullahabid04"><img src="https://github-readme-streak-stats.herokuapp.com/?user=abdullahabid04&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+- Advanced IoT architectures & edge computing
+- AI & Machine Learning integration in SaaS
+- Scalable cloud infrastructure & DevOps best practices
 
-<a href="http://www.github.com/abdullahabid04"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=abdullahabid04&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+---
 
-<a href="https://github.com/abdullahabid04" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullahabid04&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+### ⚡ Fun Facts
+
+- ♟️ Chess and table tennis keep my mind sharp and strategic.
+- 🌏 I enjoy exploring world history and learning from the past.
+- 💡 Always ready to brainstorm new product ideas and solve real-world problems.
+
+---
+
+### 📫 Let's Connect
+
+- Email: [abrps2004@gmail.com](mailto:abrps2004@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/abdullahabid04)
+
+---
+
+Let's build something meaningful together!
