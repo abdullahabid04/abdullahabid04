@@ -26,11 +26,11 @@ I'm a passionate software developer with 4+ years of hands-on experience, specia
 
 ### 🛠️ Skills & Tools
 
-- **Languages:** Python, PHP, JavaScript, C++
-- **Frameworks:** Laravel, Flutter, PyQt5
+- **Languages:** Python, PHP, JavaScript, C++, C#
+- **Frameworks:** Laravel, Flutter, PyQt5, .NET
 - **Cloud:** AWS (Amazon Web Services)
 - **Databases:** MySQL
-- **Dev Tools:** Git, Linux, REST APIs, MVC, Clean Architecture
+- **Dev Tools:** Git, Linux, Postman
 - **Expertise:** Full-Stack Development, Mobile/Web App Development, IoT Systems, Automation, API & Database Design, OOP, Embedded Systems, Signal Processing
 
 ---
