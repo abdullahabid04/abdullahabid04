@@ -31,7 +31,7 @@ I'm a passionate software developer with 4+ years of hands-on experience, specia
 - **Cloud:** AWS (Amazon Web Services)
 - **Databases:** MySQL
 - **Dev Tools:** Git, Linux, Postman
-- **Expertise:** Full-Stack Development, Mobile/Web App Development, IoT Systems, Automation, API & Database Design, OOP, Embedded Systems, Signal Processing
+- **Expertise:** Full-Stack Development, Mobile/Web App Development, IoT Systems, Automation, API & Database Design, OOP
 
 ---
 
