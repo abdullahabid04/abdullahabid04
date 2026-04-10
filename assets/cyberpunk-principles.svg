@@ -53,9 +53,6 @@
         dominant-baseline: middle;
       }
       
-      .col1 { transform: translateX(20px); }
-      .col2 { transform: translateX(460px); }
-
       .anim-1 { animation: slideInUp 0.5s ease-out 0.1s both; }
       .anim-2 { animation: slideInUp 0.5s ease-out 0.2s both; }
       .anim-3 { animation: slideInUp 0.5s ease-out 0.3s both; }
@@ -73,57 +70,69 @@
   <rect width="900" height="400" class="bg" />
 
   <!-- Principle 1 -->
-  <g class="anim-1 col1" transform="translate(20, 20)">
-    <rect width="420" height="100" class="card box-pink" />
-    <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#ff2079" />
-    <text x="40" y="50" class="icon-text">🔨</text>
-    <text x="75" y="35" class="title-text" fill="#ff2079">How I learn</text>
-    <text x="75" y="65" class="desc-text">Hands-on first. Build before reading.</text>
+  <g transform="translate(20, 20)">
+    <g class="anim-1">
+      <rect width="420" height="100" class="card box-pink" />
+      <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#ff2079" />
+      <text x="40" y="50" class="icon-text">🔨</text>
+      <text x="75" y="35" class="title-text" fill="#ff2079">How I learn</text>
+      <text x="75" y="65" class="desc-text">Hands-on first. Build before reading.</text>
+    </g>
   </g>
 
   <!-- Principle 2 -->
-  <g class="anim-2 col2" transform="translate(460, 20)">
-    <rect width="420" height="100" class="card box-blue" />
-    <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#00fff1" />
-    <text x="40" y="50" class="icon-text">🧩</text>
-    <text x="75" y="35" class="title-text" fill="#00fff1">How I solve problems</text>
-    <text x="75" y="65" class="desc-text">Trace the full system — firmware to mobile.</text>
+  <g transform="translate(460, 20)">
+    <g class="anim-2">
+      <rect width="420" height="100" class="card box-blue" />
+      <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#00fff1" />
+      <text x="40" y="50" class="icon-text">🧩</text>
+      <text x="75" y="35" class="title-text" fill="#00fff1">How I solve problems</text>
+      <text x="75" y="65" class="desc-text">Trace the full system — firmware to mobile.</text>
+    </g>
   </g>
 
   <!-- Principle 3 -->
-  <g class="anim-3 col1" transform="translate(20, 140)">
-    <rect width="420" height="100" class="card box-yellow" />
-    <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#f5f720" />
-    <text x="40" y="50" class="icon-text">🔁</text>
-    <text x="75" y="35" class="title-text" fill="#f5f720">How I build</text>
-    <text x="75" y="65" class="desc-text">Ship a working version. Iterate. Improve.</text>
+  <g transform="translate(20, 140)">
+    <g class="anim-3">
+      <rect width="420" height="100" class="card box-yellow" />
+      <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#f5f720" />
+      <text x="40" y="50" class="icon-text">🔁</text>
+      <text x="75" y="35" class="title-text" fill="#f5f720">How I build</text>
+      <text x="75" y="65" class="desc-text">Ship a working version. Iterate. Improve.</text>
+    </g>
   </g>
 
   <!-- Principle 4 -->
-  <g class="anim-4 col2" transform="translate(460, 140)">
-    <rect width="420" height="100" class="card box-pink" />
-    <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#ff2079" />
-    <text x="40" y="50" class="icon-text">📄</text>
-    <text x="75" y="35" class="title-text" fill="#ff2079">How I document</text>
-    <text x="75" y="65" class="desc-text">Every API gets a Postman coll + OpenAPI spec.</text>
+  <g transform="translate(460, 140)">
+    <g class="anim-4">
+      <rect width="420" height="100" class="card box-pink" />
+      <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#ff2079" />
+      <text x="40" y="50" class="icon-text">📄</text>
+      <text x="75" y="35" class="title-text" fill="#ff2079">How I document</text>
+      <text x="75" y="65" class="desc-text">Every API gets a Postman coll + OpenAPI spec.</text>
+    </g>
   </g>
 
   <!-- Principle 5 -->
-  <g class="anim-5 col1" transform="translate(20, 260)">
-    <rect width="420" height="100" class="card box-blue" />
-    <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#00fff1" />
-    <text x="40" y="50" class="icon-text">🤝</text>
-    <text x="75" y="35" class="title-text" fill="#00fff1">How I collaborate</text>
-    <text x="75" y="65" class="desc-text">Contributor, not over-claimer. Team systems.</text>
+  <g transform="translate(20, 260)">
+    <g class="anim-5">
+      <rect width="420" height="100" class="card box-blue" />
+      <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#00fff1" />
+      <text x="40" y="50" class="icon-text">🤝</text>
+      <text x="75" y="35" class="title-text" fill="#00fff1">How I collaborate</text>
+      <text x="75" y="65" class="desc-text">Contributor, not over-claimer. Team systems.</text>
+    </g>
   </g>
 
   <!-- Principle 6 -->
-  <g class="anim-6 col2" transform="translate(460, 260)">
-    <rect width="420" height="100" class="card box-yellow" />
-    <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#f5f720" />
-    <text x="40" y="50" class="icon-text">⚖️</text>
-    <text x="75" y="35" class="title-text" fill="#f5f720">What I value</text>
-    <text x="75" y="65" class="desc-text">Working systems > perfect code. Clarity > clever.</text>
+  <g transform="translate(460, 260)">
+    <g class="anim-6">
+      <rect width="420" height="100" class="card box-yellow" />
+      <path d="M 0 10 L 0 6 L 6 0 L 10 0" class="accent-line" stroke="#f5f720" />
+      <text x="40" y="50" class="icon-text">⚖️</text>
+      <text x="75" y="35" class="title-text" fill="#f5f720">What I value</text>
+      <text x="75" y="65" class="desc-text">Working systems > perfect code. Clarity > clever.</text>
+    </g>
   </g>
 
 </svg>

@@ -71,63 +71,75 @@
   <rect x="20" y="20" width="860" height="240" class="glitch-bar" />
 
   <!-- Item 1: Chess -->
-  <g class="f-1" transform="translate(45, 50)">
-    <rect width="120" height="150" rx="8" class="hex-bg" />
-    <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#ff2079" />
-    <text x="60" y="50" class="icon-text">♟️</text>
-    <text x="60" y="90" class="title-text" fill="#ff2079">Chess</text>
-    <text x="60" y="115" class="desc-text">Pattern</text>
-    <text x="60" y="130" class="desc-text">recognition</text>
+  <g transform="translate(45, 50)">
+    <g class="f-1">
+      <rect width="120" height="150" rx="8" class="hex-bg" />
+      <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#ff2079" />
+      <text x="60" y="50" class="icon-text">♟️</text>
+      <text x="60" y="90" class="title-text" fill="#ff2079">Chess</text>
+      <text x="60" y="115" class="desc-text">Pattern</text>
+      <text x="60" y="130" class="desc-text">recognition</text>
+    </g>
   </g>
 
   <!-- Item 2: Table Tennis -->
-  <g class="f-2" transform="translate(185, 50)">
-    <rect width="120" height="150" rx="8" class="hex-bg" />
-    <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#00fff1" />
-    <text x="60" y="50" class="icon-text">🏓</text>
-    <text x="60" y="90" class="title-text" fill="#00fff1">Ping Pong</text>
-    <text x="60" y="115" class="desc-text">Fast decisions,</text>
-    <text x="60" y="130" class="desc-text">compete mindset</text>
+  <g transform="translate(185, 50)">
+    <g class="f-2">
+      <rect width="120" height="150" rx="8" class="hex-bg" />
+      <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#00fff1" />
+      <text x="60" y="50" class="icon-text">🏓</text>
+      <text x="60" y="90" class="title-text" fill="#00fff1">Ping Pong</text>
+      <text x="60" y="115" class="desc-text">Fast decisions,</text>
+      <text x="60" y="130" class="desc-text">compete mindset</text>
+    </g>
   </g>
 
   <!-- Item 3: Cars & PCs -->
-  <g class="f-3" transform="translate(325, 50)">
-    <rect width="120" height="150" rx="8" class="hex-bg" />
-    <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#f5f720" />
-    <text x="60" y="50" class="icon-text">⚙️</text>
-    <text x="60" y="90" class="title-text" fill="#f5f720">Cars &amp; PCs</text>
-    <text x="60" y="115" class="desc-text">How systems &amp;</text>
-    <text x="60" y="130" class="desc-text">parts interact</text>
+  <g transform="translate(325, 50)">
+    <g class="f-3">
+      <rect width="120" height="150" rx="8" class="hex-bg" />
+      <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#f5f720" />
+      <text x="60" y="50" class="icon-text">⚙️</text>
+      <text x="60" y="90" class="title-text" fill="#f5f720">Cars &amp; PCs</text>
+      <text x="60" y="115" class="desc-text">How systems &amp;</text>
+      <text x="60" y="130" class="desc-text">parts interact</text>
+    </g>
   </g>
 
   <!-- Item 4: History -->
-  <g class="f-4" transform="translate(465, 50)">
-    <rect width="120" height="150" rx="8" class="hex-bg" />
-    <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#9b5de5" />
-    <text x="60" y="50" class="icon-text">🏛️</text>
-    <text x="60" y="90" class="title-text" fill="#9b5de5">History</text>
-    <text x="60" y="115" class="desc-text">Long-term thinking,</text>
-    <text x="60" y="130" class="desc-text">cause &amp; effect</text>
+  <g transform="translate(465, 50)">
+    <g class="f-4">
+      <rect width="120" height="150" rx="8" class="hex-bg" />
+      <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#9b5de5" />
+      <text x="60" y="50" class="icon-text">🏛️</text>
+      <text x="60" y="90" class="title-text" fill="#9b5de5">History</text>
+      <text x="60" y="115" class="desc-text">Long-term thinking,</text>
+      <text x="60" y="130" class="desc-text">cause &amp; effect</text>
+    </g>
   </g>
 
   <!-- Item 5: AI Trends -->
-  <g class="f-5" transform="translate(605, 50)">
-    <rect width="120" height="150" rx="8" class="hex-bg" />
-    <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#00ff41" />
-    <text x="60" y="50" class="icon-text">🤖</text>
-    <text x="60" y="90" class="title-text" fill="#00ff41">AI Trends</text>
-    <text x="60" y="115" class="desc-text">Stays current,</text>
-    <text x="60" y="130" class="desc-text">builds with it</text>
+  <g transform="translate(605, 50)">
+    <g class="f-5">
+      <rect width="120" height="150" rx="8" class="hex-bg" />
+      <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#00ff41" />
+      <text x="60" y="50" class="icon-text">🤖</text>
+      <text x="60" y="90" class="title-text" fill="#00ff41">AI Trends</text>
+      <text x="60" y="115" class="desc-text">Stays current,</text>
+      <text x="60" y="130" class="desc-text">builds with it</text>
+    </g>
   </g>
 
   <!-- Item 6: Travel -->
-  <g class="f-6" transform="translate(745, 50)">
-    <rect width="120" height="150" rx="8" class="hex-bg" />
-    <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#ff8c00" />
-    <text x="60" y="50" class="icon-text">🌿</text>
-    <text x="60" y="90" class="title-text" fill="#ff8c00">Travel</text>
-    <text x="60" y="115" class="desc-text">Perspective</text>
-    <text x="60" y="130" class="desc-text">outside screens</text>
+  <g transform="translate(745, 50)">
+    <g class="f-6">
+      <rect width="120" height="150" rx="8" class="hex-bg" />
+      <path d="M 0 15 L 0 8 Q 0 0 8 0 L 15 0" class="accent-line" stroke="#ff8c00" />
+      <text x="60" y="50" class="icon-text">🌿</text>
+      <text x="60" y="90" class="title-text" fill="#ff8c00">Travel</text>
+      <text x="60" y="115" class="desc-text">Perspective</text>
+      <text x="60" y="130" class="desc-text">outside screens</text>
+    </g>
   </g>
 
 </svg>
