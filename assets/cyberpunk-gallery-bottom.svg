@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="900" height="60">
+  <defs>
+    <style>
+      .bg { fill: #0a0014; }
+      .border { fill: none; stroke: #ff2079; stroke-width: 2; }
+      .accent { fill: #f5f720; }
+      .text-scan { font-family: 'Courier New', 'Consolas', monospace; font-size: 10px; fill: #666; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect width="900" height="60" class="bg" />
+  
+  <!-- Bottom bracket for the image -->
+  <path d="M 150 0 L 150 10 L 300 10" class="border" />
+  <path d="M 750 0 L 750 10 L 600 10" class="border" />
+  
+  <rect x="145" y="5" width="10" height="10" class="accent" />
+  <rect x="745" y="5" width="10" height="10" class="accent" />
+  
+  <text x="450" y="25" class="text-scan">STATUS: RANDOM_ROTATION_ACTIVE | SYNC: 100%</text>
+</svg>

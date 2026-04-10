@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="900" height="60">
+  <defs>
+    <style>
+      .bg { fill: #0a0014; }
+      .text-title { font-family: 'Courier New', 'Consolas', monospace; font-size: 16px; font-weight: bold; fill: #00fff1; text-anchor: middle; letter-spacing: 2px; }
+      .border { fill: none; stroke: #ff2079; stroke-width: 2; }
+      .accent { fill: #f5f720; }
+    </style>
+  </defs>
+  <rect width="900" height="60" class="bg" />
+  
+  <text x="450" y="35" class="text-title">📸 // PERSONAL.ARCHIVES</text>
+  
+  <path d="M 280 40 L 300 40 L 310 30 L 340 30" stroke="#00fff1" fill="none" stroke-width="1.5" />
+  <path d="M 620 40 L 600 40 L 590 30 L 560 30" stroke="#00fff1" fill="none" stroke-width="1.5" />
+  
+  <!-- Top bracket for the image -->
+  <path d="M 150 60 L 150 50 L 300 50" class="border" />
+  <path d="M 750 60 L 750 50 L 600 50" class="border" />
+  
+  <rect x="145" y="45" width="10" height="10" class="accent" />
+  <rect x="745" y="45" width="10" height="10" class="accent" />
+</svg>

@@ -715,6 +715,27 @@ A collection of early-stage C++ projects focused on algorithmic problem solving 
 <img src="./assets/cyberpunk-splash.svg" width="100%"/>
 
 <!-- ═══════════════════════════════════════════════════════ -->
+<!--             PERSONAL ARCHIVES (IMAGES)                 -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="./assets/cyberpunk-gallery-top.svg" width="100%"/>
+
+<br/>
+
+<a href="https://github.com/abdullahabid04/abdullahabid04/tree/main/assets/photos">
+  <img src="https://abdullahabid04-portfolio.vercel.app/api/random-image" width="70%"/>
+</a>
+
+<br/>
+
+<img src="./assets/cyberpunk-gallery-bottom.svg" width="100%"/>
+
+</div>
+
+<img src="./assets/cyberpunk-divider.svg" width="100%"/>
+<!-- ═══════════════════════════════════════════════════════ -->
 <!--             ACTIVITY GRAPH                             -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
