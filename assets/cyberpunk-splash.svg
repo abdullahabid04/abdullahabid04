@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="1200" height="60">
+  <defs>
+    <style>
+      @keyframes ringExpand1 {
+        0% { r: 2; opacity: 0.9; stroke-width: 2; }
+        100% { r: 80; opacity: 0; stroke-width: 0.3; }
+      }
+      @keyframes ringExpand2 {
+        0% { r: 2; opacity: 0.7; stroke-width: 1.5; }
+        100% { r: 60; opacity: 0; stroke-width: 0.2; }
+      }
+      @keyframes ringExpand3 {
+        0% { r: 2; opacity: 0.5; stroke-width: 1; }
+        100% { r: 100; opacity: 0; stroke-width: 0.1; }
+      }
+      @keyframes particleBurst {
+        0% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+      @keyframes moveUp { 0% { transform: translate(0,0); } 100% { transform: translate(0,-25px); } }
+      @keyframes moveDown { 0% { transform: translate(0,0); } 100% { transform: translate(0,25px); } }
+      @keyframes moveLeft { 0% { transform: translate(0,0); } 100% { transform: translate(-40px,0); } }
+      @keyframes moveRight { 0% { transform: translate(0,0); } 100% { transform: translate(40px,0); } }
+      @keyframes moveUpLeft { 0% { transform: translate(0,0); } 100% { transform: translate(-30px,-20px); } }
+      @keyframes moveUpRight { 0% { transform: translate(0,0); } 100% { transform: translate(30px,-20px); } }
+      @keyframes moveDownLeft { 0% { transform: translate(0,0); } 100% { transform: translate(-30px,20px); } }
+      @keyframes moveDownRight { 0% { transform: translate(0,0); } 100% { transform: translate(30px,20px); } }
+      @keyframes centerPulse {
+        0%, 100% { fill-opacity: 1; filter: drop-shadow(0 0 4px #ff2079); }
+        50% { fill-opacity: 0.3; filter: drop-shadow(0 0 1px #ff2079); }
+      }
+      @keyframes lineFlash {
+        0%, 100% { stroke-opacity: 0.05; }
+        50% { stroke-opacity: 0.3; }
+      }
+      .ring1 { stroke: #ff2079; fill: none; animation: ringExpand1 3s ease-out infinite; }
+      .ring2 { stroke: #00fff1; fill: none; animation: ringExpand2 3s ease-out infinite 0.8s; }
+      .ring3 { stroke: #9b5de5; fill: none; animation: ringExpand3 3s ease-out infinite 1.6s; }
+      .center-dot { fill: #ff2079; animation: centerPulse 2s ease-in-out infinite; }
+      .burst-particle {
+        r: 1.5;
+        opacity: 0;
+      }
+      .bp-up { fill: #ff2079; animation: particleBurst 2s ease-out infinite, moveUp 2s ease-out infinite; }
+      .bp-down { fill: #00fff1; animation: particleBurst 2s ease-out infinite 0.25s, moveDown 2s ease-out infinite 0.25s; }
+      .bp-left { fill: #9b5de5; animation: particleBurst 2s ease-out infinite 0.5s, moveLeft 2s ease-out infinite 0.5s; }
+      .bp-right { fill: #ff2079; animation: particleBurst 2s ease-out infinite 0.75s, moveRight 2s ease-out infinite 0.75s; }
+      .bp-ul { fill: #00fff1; animation: particleBurst 2s ease-out infinite 0.33s, moveUpLeft 2s ease-out infinite 0.33s; }
+      .bp-ur { fill: #9b5de5; animation: particleBurst 2s ease-out infinite 0.66s, moveUpRight 2s ease-out infinite 0.66s; }
+      .bp-dl { fill: #ff2079; animation: particleBurst 2s ease-out infinite 1s, moveDownLeft 2s ease-out infinite 1s; }
+      .bp-dr { fill: #00fff1; animation: particleBurst 2s ease-out infinite 1.33s, moveDownRight 2s ease-out infinite 1.33s; }
+      .horizon-line {
+        stroke: #9b5de5;
+        stroke-width: 0.5;
+        animation: lineFlash 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+  
+  <!-- Subtle horizon lines -->
+  <line x1="0" y1="30" x2="550" y2="30" class="horizon-line"/>
+  <line x1="650" y1="30" x2="1200" y2="30" class="horizon-line"/>
+  
+  <!-- Expanding rings from center -->
+  <circle cx="600" cy="30" class="ring1"/>
+  <circle cx="600" cy="30" class="ring2"/>
+  <circle cx="600" cy="30" class="ring3"/>
+  
+  <!-- Center dot -->
+  <circle cx="600" cy="30" r="3" class="center-dot"/>
+  
+  <!-- Particle burst -->
+  <circle cx="600" cy="30" class="burst-particle bp-up"/>
+  <circle cx="600" cy="30" class="burst-particle bp-down"/>
+  <circle cx="600" cy="30" class="burst-particle bp-left"/>
+  <circle cx="600" cy="30" class="burst-particle bp-right"/>
+  <circle cx="600" cy="30" class="burst-particle bp-ul"/>
+  <circle cx="600" cy="30" class="burst-particle bp-ur"/>
+  <circle cx="600" cy="30" class="burst-particle bp-dl"/>
+  <circle cx="600" cy="30" class="burst-particle bp-dr"/>
+</svg>

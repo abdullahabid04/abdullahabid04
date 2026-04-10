@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 30" width="1200" height="30">
+  <defs>
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { 
+          filter: drop-shadow(0 0 3px #ff2079) drop-shadow(0 0 8px #ff2079);
+          stroke: #ff2079;
+        }
+        33% { 
+          filter: drop-shadow(0 0 3px #00fff1) drop-shadow(0 0 8px #00fff1);
+          stroke: #00fff1;
+        }
+        66% { 
+          filter: drop-shadow(0 0 3px #9b5de5) drop-shadow(0 0 8px #9b5de5);
+          stroke: #9b5de5;
+        }
+      }
+      @keyframes scanDot {
+        0% { transform: translateX(-20px); opacity: 0; }
+        5% { opacity: 1; }
+        95% { opacity: 1; }
+        100% { transform: translateX(1220px); opacity: 0; }
+      }
+      @keyframes particleFade {
+        0%, 100% { opacity: 0.1; }
+        50% { opacity: 0.8; }
+      }
+      @keyframes lineExpand {
+        0% { stroke-dashoffset: 1200; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes dotPulse {
+        0%, 100% { r: 1.5; fill-opacity: 0.4; }
+        50% { r: 2.5; fill-opacity: 1; }
+      }
+      .main-line {
+        stroke-width: 1.5;
+        fill: none;
+        animation: pulseGlow 6s ease-in-out infinite;
+        stroke-dasharray: 1200;
+        stroke-dashoffset: 0;
+      }
+      .thin-line-top {
+        stroke: #ff207930;
+        stroke-width: 0.5;
+        fill: none;
+      }
+      .thin-line-bottom {
+        stroke: #00fff130;
+        stroke-width: 0.5;
+        fill: none;
+      }
+      .scan-dot {
+        fill: #00fff1;
+        filter: drop-shadow(0 0 6px #00fff1) drop-shadow(0 0 12px #00fff1);
+        animation: scanDot 3s linear infinite;
+      }
+      .scan-dot-2 {
+        fill: #ff2079;
+        filter: drop-shadow(0 0 6px #ff2079) drop-shadow(0 0 12px #ff2079);
+        animation: scanDot 3s linear infinite 1.5s;
+      }
+      .particle {
+        fill: #9b5de5;
+        animation: particleFade 2s ease-in-out infinite;
+      }
+      .particle:nth-child(odd) { animation-delay: 0.3s; }
+      .p1 { animation-delay: 0s; }
+      .p2 { animation-delay: 0.4s; }
+      .p3 { animation-delay: 0.8s; }
+      .p4 { animation-delay: 1.2s; }
+      .p5 { animation-delay: 1.6s; }
+      .p6 { animation-delay: 0.2s; }
+      .p7 { animation-delay: 0.6s; }
+      .p8 { animation-delay: 1.0s; }
+      .p9 { animation-delay: 1.4s; }
+      .p10 { animation-delay: 1.8s; }
+      .end-node {
+        animation: dotPulse 2s ease-in-out infinite;
+      }
+      .end-node-left { fill: #ff2079; }
+      .end-node-right { fill: #00fff1; }
+    </style>
+    <linearGradient id="bgDiv" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a0014" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#0a0014"/>
+      <stop offset="80%" stop-color="#0a0014"/>
+      <stop offset="100%" stop-color="#0a0014" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="30" fill="#0a0014" fill-opacity="0"/>
+  
+  <!-- Thin accent lines -->
+  <line x1="50" y1="10" x2="1150" y2="10" class="thin-line-top"/>
+  <line x1="50" y1="20" x2="1150" y2="20" class="thin-line-bottom"/>
+  
+  <!-- Main neon line -->
+  <line x1="50" y1="15" x2="1150" y2="15" class="main-line"/>
+  
+  <!-- End nodes -->
+  <circle cx="50" cy="15" r="2" class="end-node end-node-left"/>
+  <circle cx="1150" cy="15" r="2" class="end-node end-node-right"/>
+  
+  <!-- Scanning dots -->
+  <circle cx="0" cy="15" r="3" class="scan-dot"/>
+  <circle cx="0" cy="15" r="3" class="scan-dot-2"/>
+  
+  <!-- Decorative particles -->
+  <circle cx="150" cy="8" r="1" class="particle p1"/>
+  <circle cx="300" cy="22" r="1" class="particle p2"/>
+  <circle cx="420" cy="6" r="1" class="particle p3"/>
+  <circle cx="540" cy="24" r="1" class="particle p4"/>
+  <circle cx="660" cy="7" r="1" class="particle p5"/>
+  <circle cx="750" cy="23" r="1" class="particle p6"/>
+  <circle cx="850" cy="5" r="1" class="particle p7"/>
+  <circle cx="930" cy="25" r="1" class="particle p8"/>
+  <circle cx="1020" cy="8" r="1" class="particle p9"/>
+  <circle cx="1100" cy="22" r="1" class="particle p10"/>
+</svg>
