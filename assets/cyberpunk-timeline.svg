@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620">
+  <defs>
+    <style>
+      @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+      @keyframes glowPink {
+        0%, 100% { filter: drop-shadow(0 0 4px #ff2079) drop-shadow(0 0 10px #ff207950); }
+        50% { filter: drop-shadow(0 0 2px #ff2079) drop-shadow(0 0 5px #ff207920); }
+      }
+      @keyframes glowCyan {
+        0%, 100% { filter: drop-shadow(0 0 4px #00fff1) drop-shadow(0 0 10px #00fff150); }
+        50% { filter: drop-shadow(0 0 2px #00fff1) drop-shadow(0 0 5px #00fff120); }
+      }
+      @keyframes lineGrow {
+        0% { stroke-dashoffset: 500; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes nodePulse {
+        0%, 100% { r: 8; fill-opacity: 1; }
+        50% { r: 10; fill-opacity: 0.7; }
+      }
+      @keyframes slideInItem {
+        0% { opacity: 0; transform: translateX(-15px); }
+        100% { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes dotPulse {
+        0%, 100% { r: 5; }
+        50% { r: 7; }
+      }
+      @keyframes currentPulse {
+        0%, 100% { r: 8; fill-opacity: 1; filter: drop-shadow(0 0 6px #00ff41) drop-shadow(0 0 15px #00ff4180); }
+        50% { r: 10; fill-opacity: 0.8; filter: drop-shadow(0 0 3px #00ff41) drop-shadow(0 0 8px #00ff4140); }
+      }
+
+      .bg { fill: #0a0014; }
+      .card { fill: #0d001a; stroke: #1a0035; stroke-width: 1; rx: 10; }
+
+      /* Timeline spine */
+      .spine {
+        stroke: #2a0050;
+        stroke-width: 2;
+      }
+      .spine-glow {
+        stroke: #ff2079;
+        stroke-width: 2;
+        stroke-dasharray: 500;
+        animation: lineGrow 3s ease-out both;
+      }
+
+      /* Year nodes */
+      .year-node { animation: nodePulse 3s ease-in-out infinite; }
+      .year-text {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 16px;
+        font-weight: bold;
+        fill: #00fff1;
+        text-anchor: end;
+      }
+      .year-tag {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 12px;
+        font-weight: bold;
+        text-anchor: start;
+      }
+      .tag-box {
+        rx: 4;
+        height: 20;
+        fill: #0d001a;
+        stroke-width: 1.5;
+      }
+
+      /* Content cards */
+      .content-card {
+        fill: #0f001f;
+        stroke: #1a003580;
+        stroke-width: 0.5;
+        rx: 6;
+      }
+      .content-text {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 11px;
+        fill: #c0b0e0;
+      }
+      .bullet-dot {
+        r: 2;
+        fill: #9b5de5;
+      }
+
+      .corner { stroke-width: 1.5; fill: none; }
+
+      /* Staggered entry */
+      .yr-1 { animation: slideInItem 0.6s ease-out 0.3s both; }
+      .yr-2 { animation: slideInItem 0.6s ease-out 0.6s both; }
+      .yr-3 { animation: slideInItem 0.6s ease-out 0.9s both; }
+      .yr-4 { animation: slideInItem 0.6s ease-out 1.2s both; }
+      .yr-5 { animation: slideInItem 0.6s ease-out 1.5s both; }
+      .yr-6 { animation: slideInItem 0.6s ease-out 1.8s both; }
+      .yr-now { animation: slideInItem 0.6s ease-out 2.1s both; }
+    </style>
+    <linearGradient id="spineGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff2079"/>
+      <stop offset="50%" stop-color="#9b5de5"/>
+      <stop offset="100%" stop-color="#00fff1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="620" class="bg"/>
+  <rect x="20" y="10" width="860" height="600" class="card"/>
+
+  <!-- Corner accents -->
+  <polyline points="20,30 20,10 40,10" class="corner" stroke="#ff2079"/>
+  <polyline points="860,600 880,600 880,580" class="corner" stroke="#00fff1"/>
+
+  <!-- Timeline spine -->
+  <line x1="130" y1="40" x2="130" y2="580" class="spine"/>
+  <line x1="130" y1="40" x2="130" y2="580" stroke="url(#spineGrad)" stroke-width="2" stroke-dasharray="600" style="animation: lineGrow 3s ease-out both;"/>
+
+  <!-- ===== 2020 ===== -->
+  <g class="yr-1">
+    <circle cx="130" cy="65" r="8" fill="#ff2079" class="year-node"/>
+    <text x="110" y="70" class="year-text">2020</text>
+    <rect x="148" y="55" width="110" height="20" class="tag-box" stroke="#ff2079"/>
+    <text x="155" y="69" class="year-tag" fill="#ff2079">⚡ THE SPARK</text>
+    <rect x="148" y="82" width="680" height="52" class="content-card"/>
+    <circle cx="162" cy="96" class="bullet-dot"/>
+    <text x="172" y="100" class="content-text">Father handed me a piece of C++ code. I haven't stopped since.</text>
+    <circle cx="162" cy="112" class="bullet-dot"/>
+    <text x="172" y="116" class="content-text">Built a 1,500-line console math quiz. Wrote physics solvers.</text>
+    <circle cx="162" cy="128" class="bullet-dot"/>
+    <text x="172" y="132" class="content-text">Explored DSA, OOP, algorithms — all self-driven.</text>
+  </g>
+
+  <!-- ===== 2021 ===== -->
+  <g class="yr-2">
+    <circle cx="130" cy="160" r="8" fill="#9b5de5" class="year-node" style="animation-delay: 0.5s;"/>
+    <text x="110" y="165" class="year-text">2021</text>
+    <rect x="148" y="150" width="130" height="20" class="tag-box" stroke="#9b5de5"/>
+    <text x="155" y="164" class="year-tag" fill="#9b5de5">🔭 EXPLORATION</text>
+    <rect x="148" y="177" width="680" height="52" class="content-card"/>
+    <circle cx="162" cy="191" class="bullet-dot"/>
+    <text x="172" y="195" class="content-text">Python · Android Studio · Flutter</text>
+    <circle cx="162" cy="207" class="bullet-dot"/>
+    <text x="172" y="211" class="content-text">Built a 2D online multiplayer game. First real client projects.</text>
+    <circle cx="162" cy="223" class="bullet-dot"/>
+    <text x="172" y="227" class="content-text">Delivered mobile + backend apps for automation clients.</text>
+  </g>
+
+  <!-- ===== 2022 ===== -->
+  <g class="yr-3">
+    <circle cx="130" cy="255" r="8" fill="#00fff1" class="year-node" style="animation-delay: 1s;"/>
+    <text x="110" y="260" class="year-text">2022</text>
+    <rect x="148" y="245" width="95" height="20" class="tag-box" stroke="#00fff1"/>
+    <text x="155" y="259" class="year-tag" fill="#00fff1">🏭 DEPTH</text>
+    <rect x="148" y="272" width="680" height="52" class="content-card"/>
+    <circle cx="162" cy="286" class="bullet-dot"/>
+    <text x="172" y="290" class="content-text">Joined CARE Lab. Industrial automation. Hardware integration.</text>
+    <circle cx="162" cy="302" class="bullet-dot"/>
+    <text x="172" y="306" class="content-text">Raspberry Pi. PyQt5. Battery systems. Test rigs.</text>
+    <circle cx="162" cy="318" class="bullet-dot"/>
+    <text x="172" y="322" class="content-text">Delivered first production hardware-software system.</text>
+  </g>
+
+  <!-- ===== 2023 ===== -->
+  <g class="yr-4">
+    <circle cx="130" cy="350" r="8" fill="#ff2079" class="year-node" style="animation-delay: 1.5s;"/>
+    <text x="110" y="355" class="year-text">2023</text>
+    <rect x="148" y="340" width="120" height="20" class="tag-box" stroke="#ff2079"/>
+    <text x="155" y="354" class="year-tag" fill="#ff2079">🚀 TRANSITION</text>
+    <rect x="148" y="367" width="680" height="52" class="content-card"/>
+    <circle cx="162" cy="381" class="bullet-dot"/>
+    <text x="172" y="385" class="content-text">Cosmos Algos. Laravel. IoT SaaS. Team engineering.</text>
+    <circle cx="162" cy="397" class="bullet-dot"/>
+    <text x="172" y="401" class="content-text">Shifted from solo dev → collaborative platform engineer.</text>
+    <circle cx="162" cy="413" class="bullet-dot"/>
+    <text x="172" y="417" class="content-text">5 IoT SaaS platforms. DynamoDB. Multi-tenancy. RBAC.</text>
+  </g>
+
+  <!-- ===== 2024 ===== -->
+  <g class="yr-5">
+    <circle cx="130" cy="445" r="8" fill="#9b5de5" class="year-node" style="animation-delay: 2s;"/>
+    <text x="110" y="450" class="year-text">2024</text>
+    <rect x="148" y="435" width="110" height="20" class="tag-box" stroke="#9b5de5"/>
+    <text x="155" y="449" class="year-tag" fill="#9b5de5">🧠 SYSTEMS</text>
+    <rect x="148" y="462" width="680" height="36" class="content-card"/>
+    <circle cx="162" cy="476" class="bullet-dot"/>
+    <text x="172" y="480" class="content-text">Computer vision. AI data pipelines. Firmware OTA.</text>
+    <circle cx="162" cy="492" class="bullet-dot"/>
+    <text x="172" y="496" class="content-text">VFD control. RealSense RGB-D. Real-time streaming.</text>
+  </g>
+
+  <!-- ===== 2025 ===== -->
+  <g class="yr-6">
+    <circle cx="130" cy="525" r="8" fill="#00fff1" class="year-node" style="animation-delay: 2.5s;"/>
+    <text x="110" y="530" class="year-text">2025</text>
+    <rect x="148" y="515" width="130" height="20" class="tag-box" stroke="#00fff1"/>
+    <text x="155" y="529" class="year-tag" fill="#00fff1">⚙ ENGINEERING</text>
+    <rect x="148" y="542" width="680" height="36" class="content-card"/>
+    <circle cx="162" cy="556" class="bullet-dot"/>
+    <text x="172" y="560" class="content-text">DeepEmbed contract. Scaling platforms. AI inference integration.</text>
+    <circle cx="162" cy="572" class="bullet-dot"/>
+    <text x="172" y="576" class="content-text">Fewer tutorials. More engineering judgment.</text>
+  </g>
+
+  <!-- ===== NOW ===== -->
+  <g class="yr-now">
+    <circle cx="130" cy="600" r="8" fill="#00ff41" style="animation: currentPulse 2s ease-in-out infinite;"/>
+    <text x="110" y="605" class="year-text" fill="#00ff41">NOW</text>
+    <text x="152" y="605" class="content-text" fill="#00ff41" font-weight="bold">●  Still building. Still learning. BSc AI in progress.</text>
+  </g>
+</svg>

@@ -50,31 +50,7 @@
 
 </div>
 
-```typescript
-const abdullahAbid = {
-  role        : "Software Engineer  →  Backend · IoT · SaaS",
-  company     : "Cosmos Algos  [ Founder & CEO ]",
-  lab         : "CARE Lab  [ Software Developer ]",
-  education   : "BSc Artificial Intelligence  @  IUB  (2023–2027)",
-  location    : "Bahawalpur, Punjab, Pakistan  🇵🇰",
-  remote      : true,
-  experience  : "5 years  (2020 → Present)",
-
-  journey: [
-    "2020  →  C++ console programs from a challenge my father gave me",
-    "2021  →  Python · Flutter · first real client projects",
-    "2022  →  Industrial automation · Raspberry Pi · hardware integration",
-    "2023  →  IoT SaaS platforms · Laravel · team engineering",
-    "2024  →  Computer vision · AI pipelines · firmware systems",
-    "2025  →  Scaling products · DeepEmbed contract · still building"
-  ],
-
-  currentlyBuilding : ["FlockSense IoT SaaS", "FluxSense AI Pipeline", "primera (C#)"],
-  lookingFor        : "Remote backend / full-stack roles",
-
-  philosophy: "Build it. Ship it. Improve it. Repeat."
-};
-```
+<img src="./assets/cyberpunk-identity.svg" width="100%"/>
 
 <img src="./assets/cyberpunk-divider.svg" width="100%"/>
 
@@ -732,39 +708,9 @@ A collection of early-stage C++ projects focused on algorithmic problem solving 
 
 [![JourneyGlitch](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=11&pause=2500&color=00FFF1&center=true&vCenter=true&width=700&lines=%2F%2F+no+overnight+success.+just+showing+up%2C+learning%2C+and+building.)](https://git.io/typing-svg)
 
-</div>
+<img src="./assets/cyberpunk-timeline.svg" width="100%"/>
 
-```
-2020  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ⚡ THE SPARK
-      │  Father handed me a piece of C++ code. I haven't stopped since.
-      │  Built a 1,500-line console math quiz. Wrote physics solvers.
-      │  Explored DSA, OOP, algorithms — all self-driven.
-      │
-2021  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🔭 EXPLORATION
-      │  Python · Android Studio · Flutter
-      │  Built a 2D online multiplayer game. First real client projects.
-      │  Delivered mobile + backend apps for automation clients.
-      │
-2022  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🏭 DEPTH
-      │  Joined CARE Lab. Industrial automation. Hardware integration.
-      │  Raspberry Pi. PyQt5. Battery systems. Test rigs.
-      │  Delivered first production hardware-software system.
-      │
-2023  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🚀 TRANSITION
-      │  Cosmos Algos. Laravel. IoT SaaS. Team engineering.
-      │  Shifted from solo dev → collaborative platform engineer.
-      │  5 IoT SaaS platforms. DynamoDB. Multi-tenancy. RBAC.
-      │
-2024  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🧠 SYSTEMS
-      │  Computer vision. AI data pipelines. Firmware OTA.
-      │  VFD control. RealSense RGB-D. Real-time streaming.
-      │
-2025  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ⚙ ENGINEERING
-      │  DeepEmbed contract. Scaling platforms. AI inference integration.
-      │  Fewer tutorials. More engineering judgment.
-      │
-NOW   ●  Still building. Still learning. BSc AI in progress.
-```
+</div>
 
 <img src="./assets/cyberpunk-splash.svg" width="100%"/>
 
@@ -837,17 +783,7 @@ NOW   ●  Still building. Still learning. BSc AI in progress.
 
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   🔭  Building  →  FlockSense · FluxSense · primera (C#)        │
-│   📚  Studying  →  BSc AI @ IUB · Advanced IoT architectures    │
-│   🌱  Exploring →  AI/ML in SaaS · Scalable cloud infra         │
-│   💼  Seeking   →  Remote backend / full-stack engineering role  │
-│   🚀  Building  →  Cosmos Algos as a product-led startup         │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+<img src="./assets/cyberpunk-active-processes.svg" width="100%"/>
 
 </div>
 
@@ -861,27 +797,7 @@ NOW   ●  Still building. Still learning. BSc AI in progress.
 
 ## 🛣 // ROADMAP.FUTURE
 
-</div>
-
-<div align="center">
-
-```
-         NOW                  MID-TERM              LONG-TERM
-          │                      │                      │
-    ┌─────▼──────┐         ┌─────▼──────┐        ┌─────▼──────┐
-    │  Engineer  │ ──────► │ Architect  │ ─────► │  Founder   │
-    │            │         │            │        │ + Investor  │
-    │ Build real │         │ Design how │        │            │
-    │  systems   │         │  systems   │        │ Products + │
-    │            │         │   work     │        │  Capital   │
-    └────────────┘         └────────────┘        └────────────┘
-```
-
-- **Software Architecture** — Design systems, not just features
-- **SaaS Products** — Cosmos Algos from services → product-led
-- **AI Integration** — ML inside real IoT and SaaS systems (not research)
-- **Angel Investing** — Early-stage technical founders
-- **Personal Brand** — Built on real work, not performance
+<img src="./assets/cyberpunk-roadmap.svg" width="100%"/>
 
 </div>
 

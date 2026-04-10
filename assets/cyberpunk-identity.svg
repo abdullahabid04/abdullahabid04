@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <defs>
+    <style>
+      @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+      @keyframes pulseGlow {
+        0%, 100% { filter: drop-shadow(0 0 4px #00fff1) drop-shadow(0 0 10px #00fff160); }
+        50% { filter: drop-shadow(0 0 2px #00fff1) drop-shadow(0 0 5px #00fff130); }
+      }
+      @keyframes borderPulse {
+        0%, 100% { stroke-opacity: 1; }
+        50% { stroke-opacity: 0.3; }
+      }
+      @keyframes slideRight {
+        0% { transform: translateX(-20px); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes floatEffect {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+
+      .bg { fill: #0a0014; }
+      .window-bg {
+        fill: #0d001a;
+        stroke: #1a0035;
+        stroke-width: 1.5;
+        rx: 8;
+      }
+      .window-header {
+        fill: #150025;
+        rx: 8;
+      }
+      .header-line {
+        stroke: #1a0035;
+        stroke-width: 1.5;
+      }
+      
+      /* Mac-style buttons */
+      .btn-red { fill: #ff2079; }
+      .btn-yellow { fill: #f5f720; }
+      .btn-green { fill: #00ff41; }
+      
+      .title-text {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 13px;
+        fill: #9b5de5;
+        text-anchor: middle;
+        font-weight: bold;
+      }
+      
+      /* Syntax Highlighting */
+      .code {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 14px;
+        dominant-baseline: text-before-edge;
+      }
+      .keyword { fill: #ff2079; font-weight: bold; }  /* const, true */
+      .variable { fill: #00fff1; font-weight: bold; } /* abdullahAbid */
+      .operator { fill: #ffffff; }                    /* =, :, [, ] */
+      .property { fill: #9b5de5; }                    /* role, company, etc. */
+      .string { fill: #f5f720; }                      /* "..." */
+      .comment { fill: #00ff41; font-style: italic; } /* // ... */
+      
+      /* Line Numbers */
+      .line-num {
+        font-family: 'Courier New', 'Consolas', monospace;
+        font-size: 14px;
+        fill: #3a2060;
+        text-anchor: end;
+        dominant-baseline: text-before-edge;
+      }
+      
+      .corner { stroke-width: 2; fill: none; }
+      .corner-tl { stroke: #00fff1; animation: borderPulse 3s infinite; }
+      .corner-br { stroke: #ff2079; animation: borderPulse 3s infinite 1.5s; }
+
+      .anim-slide-1 { animation: slideRight 0.5s ease-out 0.1s both; }
+      .anim-slide-2 { animation: slideRight 0.5s ease-out 0.2s both; }
+      .anim-slide-3 { animation: slideRight 0.5s ease-out 0.3s both; }
+      .anim-slide-4 { animation: slideRight 0.5s ease-out 0.4s both; }
+      .anim-slide-5 { animation: slideRight 0.5s ease-out 0.5s both; }
+      .anim-slide-6 { animation: slideRight 0.5s ease-out 0.6s both; }
+      .anim-slide-7 { animation: slideRight 0.5s ease-out 0.7s both; }
+      .anim-slide-8 { animation: slideRight 0.5s ease-out 0.8s both; }
+      
+      .cursor {
+        fill: #00fff1;
+        animation: blink 1s step-end infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="500" class="bg" />
+  
+  <g class="float-group" style="animation: floatEffect 6s ease-in-out infinite;">
+    <!-- IDE Window -->
+    <rect x="30" y="20" width="840" height="460" class="window-bg" />
+    
+    <!-- Window Header -->
+    <path d="M 30 28 Q 30 20 38 20 L 862 20 Q 870 20 870 28 L 870 50 L 30 50 Z" class="window-header" />
+    <line x1="30" y1="50" x2="870" y2="50" class="header-line" />
+    
+    <!-- Window Buttons -->
+    <circle cx="55" cy="35" r="6" class="btn-red" />
+    <circle cx="75" cy="35" r="6" class="btn-yellow" />
+    <circle cx="95" cy="35" r="6" class="btn-green" />
+    
+    <!-- Title -->
+    <text x="450" y="39" class="title-text">identity.ts — SYSTEM_CORE</text>
+    
+    <!-- Corner Accents -->
+    <polyline points="30,50 30,20 60,20" class="corner corner-tl" />
+    <polyline points="840,480 870,480 870,450" class="corner corner-br" />
+    
+    <!-- Line numbers vertical separator -->
+    <line x1="80" y1="50" x2="80" y2="480" stroke="#1a0035" stroke-width="1.5" />
+
+    <!-- CODE CONTENT -->
+    <g transform="translate(0, 65)">
+      
+      <!-- Line 1 -->
+      <text x="70" y="0" class="line-num">1</text>
+      <text x="95" y="0" class="code anim-slide-1">
+        <tspan class="keyword">const</tspan> <tspan class="variable">abdullahAbid</tspan> <tspan class="operator">=</tspan> <tspan class="operator">{</tspan>
+      </text>
+
+      <!-- Line 2 -->
+      <text x="70" y="22" class="line-num">2</text>
+      <text x="95" y="22" class="code anim-slide-2">
+        <tspan class="property">  role</tspan>        <tspan class="operator">:</tspan> <tspan class="string">"Software Engineer  →  Backend · IoT · SaaS"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 3 -->
+      <text x="70" y="44" class="line-num">3</text>
+      <text x="95" y="44" class="code anim-slide-2">
+        <tspan class="property">  company</tspan>     <tspan class="operator">:</tspan> <tspan class="string">"Cosmos Algos  [ Founder &amp; CEO ]"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 4 -->
+      <text x="70" y="66" class="line-num">4</text>
+      <text x="95" y="66" class="code anim-slide-2">
+        <tspan class="property">  lab</tspan>         <tspan class="operator">:</tspan> <tspan class="string">"CARE Lab  [ Software Developer ]"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 5 -->
+      <text x="70" y="88" class="line-num">5</text>
+      <text x="95" y="88" class="code anim-slide-2">
+        <tspan class="property">  education</tspan>   <tspan class="operator">:</tspan> <tspan class="string">"BSc Artificial Intelligence  @  IUB  (2023–2027)"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 6 -->
+      <text x="70" y="110" class="line-num">6</text>
+      <text x="95" y="110" class="code anim-slide-3">
+        <tspan class="property">  location</tspan>    <tspan class="operator">:</tspan> <tspan class="string">"Bahawalpur, Punjab, Pakistan  🇵🇰"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 7 -->
+      <text x="70" y="132" class="line-num">7</text>
+      <text x="95" y="132" class="code anim-slide-3">
+        <tspan class="property">  remote</tspan>      <tspan class="operator">:</tspan> <tspan class="keyword">true</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 8 -->
+      <text x="70" y="154" class="line-num">8</text>
+      <text x="95" y="154" class="code anim-slide-3">
+        <tspan class="property">  experience</tspan>  <tspan class="operator">:</tspan> <tspan class="string">"5 years  (2020 → Present)"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 9 (Empty) -->
+      <text x="70" y="176" class="line-num">9</text>
+
+      <!-- Line 10 -->
+      <text x="70" y="198" class="line-num">10</text>
+      <text x="95" y="198" class="code anim-slide-4">
+        <tspan class="property">  journey</tspan><tspan class="operator">:</tspan> <tspan class="operator">[</tspan>
+      </text>
+
+      <!-- Line 11 -->
+      <text x="70" y="220" class="line-num">11</text>
+      <text x="95" y="220" class="code anim-slide-5">
+        <tspan class="string">    "2020  →  C++ console programs from a challenge my father gave me"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 12 -->
+      <text x="70" y="242" class="line-num">12</text>
+      <text x="95" y="242" class="code anim-slide-5">
+        <tspan class="string">    "2021  →  Python · Flutter · first real client projects"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 13 -->
+      <text x="70" y="264" class="line-num">13</text>
+      <text x="95" y="264" class="code anim-slide-5">
+        <tspan class="string">    "2022  →  Industrial automation · Raspberry Pi · hardware integration"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 14 -->
+      <text x="70" y="286" class="line-num">14</text>
+      <text x="95" y="286" class="code anim-slide-6">
+        <tspan class="string">    "2023  →  IoT SaaS platforms · Laravel · team engineering"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 15 -->
+      <text x="70" y="308" class="line-num">15</text>
+      <text x="95" y="308" class="code anim-slide-6">
+        <tspan class="string">    "2024  →  Computer vision · AI pipelines · firmware systems"</tspan><tspan class="operator">,</tspan>
+      </text>
+
+      <!-- Line 16 -->
+      <text x="70" y="330" class="line-num">16</text>
+      <text x="95" y="330" class="code anim-slide-6">
+        <tspan class="string">    "2025  →  Scaling products · DeepEmbed contract · still building"</tspan>
+      </text>
+
+      <!-- Line 17 -->
+      <text x="70" y="352" class="line-num">17</text>
+      <text x="95" y="352" class="code anim-slide-7">
+        <tspan class="operator">  ],</tspan>
+      </text>
+
+      <!-- Line 18 (Empty) -->
+      <text x="70" y="374" class="line-num">18</text>
+
+      <!-- Line 19 -->
+      <text x="70" y="396" class="line-num">19</text>
+      <text x="95" y="396" class="code anim-slide-8">
+        <tspan class="property">  currentlyBuilding</tspan> <tspan class="operator">:</tspan> <tspan class="operator">[</tspan><tspan class="string">"FlockSense IoT SaaS"</tspan><tspan class="operator">,</tspan> <tspan class="string">"FluxSense AI Pipeline"</tspan><tspan class="operator">,</tspan> <tspan class="string">"primera (C#)"</tspan><tspan class="operator">],</tspan>
+      </text>
+
+      <!-- Line 20 -->
+      <text x="70" y="418" class="line-num">20</text>
+      <text x="95" y="418" class="code anim-slide-8">
+        <tspan class="property">  philosophy</tspan>        <tspan class="operator">:</tspan> <tspan class="string">"Build it. Ship it. Improve it. Repeat."</tspan>
+      </text>
+
+      <!-- Line 21 -->
+      <text x="70" y="440" class="line-num">21</text>
+      <text x="95" y="440" class="code anim-slide-8">
+        <tspan class="operator">};</tspan>
+        <rect x="110" y="438" width="8" height="15" class="cursor" />
+      </text>
+    </g>
+  </g>
+</svg>
