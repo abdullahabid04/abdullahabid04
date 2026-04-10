@@ -228,7 +228,7 @@
       <!-- Line 19 -->
       <text x="70" y="396" class="line-num">19</text>
       <text x="95" y="396" class="code anim-slide-8">
-        <tspan class="property">  currentlyBuilding</tspan> <tspan class="operator">:</tspan> <tspan class="operator">[</tspan><tspan class="string">"FlockSense IoT SaaS"</tspan><tspan class="operator">,</tspan> <tspan class="string">"FluxSense AI Pipeline"</tspan><tspan class="operator">,</tspan> <tspan class="string">"primera (C#)"</tspan><tspan class="operator">],</tspan>
+        <tspan class="property">  currentlyBuilding</tspan> <tspan class="operator">:</tspan> <tspan class="operator">[</tspan><tspan class="string">"SlocSense IoT"</tspan><tspan class="operator">,</tspan> <tspan class="string">"SlocSense AI Pipeline"</tspan><tspan class="operator">,</tspan> <tspan class="string">"Desktop Automation Software (C#)"</tspan><tspan class="operator">],</tspan>
       </text>
 
       <!-- Line 20 -->

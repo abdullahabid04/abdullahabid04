@@ -223,7 +223,7 @@
 
   <!-- Subtitle -->
   <text x="600" y="200" text-anchor="middle" class="bracket">[</text>
-  <text x="600" y="200" text-anchor="middle" class="subtitle">  Backend Engineer  |  IoT Systems  |  SaaS Architect  </text>
+  <text x="600" y="200" text-anchor="middle" class="subtitle">  Software Engineer  |  IoT Systems  |  SaaS Builder  </text>
   <text x="600" y="200" text-anchor="middle" class="bracket" dx="370">]</text>
 
   <!-- Status indicators -->

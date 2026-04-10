@@ -158,7 +158,7 @@
     <circle cx="72" cy="81" class="icon-circle" stroke="#ff2079" style="animation: pulseGlow 3s ease-in-out infinite;"/>
     <text x="72" y="81" class="icon-text">🔭</text>
     <text x="100" y="75" class="label-text">BUILDING</text>
-    <text x="100" y="92" class="value-text">FlockSense · FluxSense · primera (C#)</text>
+    <text x="100" y="92" class="value-text">SlocSense IoT · SlocSense AI Pipeline · Desktop Automation Software (C#)</text>
     <circle cx="810" cy="81" class="status-dot status-building"/>
     <rect x="600" y="78" width="180" height="6" class="progress-bar-bg"/>
     <rect x="600" y="78" width="140" height="6" class="progress-bar-fill" fill="url(#grad1)"/>
@@ -197,7 +197,7 @@
     <circle cx="72" cy="237" class="icon-circle" stroke="#00fff1" style="animation: cyanGlow 4s ease-in-out infinite;"/>
     <text x="72" y="237" class="icon-text">💼</text>
     <text x="100" y="231" class="label-text">SEEKING</text>
-    <text x="100" y="248" class="value-text">Remote backend / full-stack engineering role</text>
+    <text x="100" y="248" class="value-text">Remote Backend Engineering and Software Engineering roles</text>
     <circle cx="810" cy="237" class="status-dot status-active"/>
     <rect x="600" y="234" width="180" height="6" class="progress-bar-bg"/>
     <rect x="600" y="234" width="165" height="6" class="progress-bar-fill" fill="url(#grad4)"/>

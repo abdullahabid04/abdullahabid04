@@ -18,7 +18,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&pause=800&color=FF2079&center=true&vCenter=true&width=750&lines=Building+IoT+SaaS+Platforms+%E2%9A%A1;5+Years+of+Real-World+Engineering+%F0%9F%94%A7;ESP32+%E2%86%92+Laravel+%E2%86%92+Cloud+%E2%86%92+Mobile;Founder+%40+Cosmos+Algos+%7C+Pakistan+%F0%9F%87%B5%F0%9F%87%B0;%2F%2F+From+a+C%2B%2B+challenge+to+production+SaaS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&pause=800&color=FF2079&center=true&vCenter=true&width=750&lines=Building+IoT+SaaS+Platforms+%E2%9A%A1;5+Years+of+Real-World+Engineering+%F0%9F%94%A7;IoT+Edge+%E2%86%92+Laravel+%E2%86%92+Cloud+%E2%86%92+Mobile;Founder+%40+Cosmos+Algos+%7C+Pakistan+%F0%9F%87%B5%F0%9F%87%B0;%2F%2F+From+a+C%2B%2B+challenge+to+production+SaaS)](https://git.io/typing-svg)
 
 <br/>
 
@@ -83,7 +83,6 @@
 [![Laravel](https://img.shields.io/badge/Laravel-0a0014?style=for-the-badge&logo=laravel&logoColor=FF2D20)](https://laravel.com)
 [![Flutter](https://img.shields.io/badge/Flutter-0a0014?style=for-the-badge&logo=flutter&logoColor=00d4ff)](https://flutter.dev)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0a0014?style=for-the-badge&logo=fastapi&logoColor=009688)](https://fastapi.tiangolo.com)
-[![Vue.js](https://img.shields.io/badge/Vue.js-0a0014?style=for-the-badge&logo=vuedotjs&logoColor=42b883)](https://vuejs.org)
 [![PyQt5](https://img.shields.io/badge/PyQt5-0a0014?style=for-the-badge&logo=qt&logoColor=41CD52)](https://riverbankcomputing.com/software/pyqt/)
 [![.NET](https://img.shields.io/badge/.NET-0a0014?style=for-the-badge&logo=dotnet&logoColor=512BD4)](https://dotnet.microsoft.com)
 
@@ -109,8 +108,6 @@
 
 ### IoT & Embedded
 
-[![ESP32](https://img.shields.io/badge/ESP32-0a0014?style=for-the-badge&logo=espressif&logoColor=E7352C)](https://espressif.com)
-[![MODBUS](https://img.shields.io/badge/MODBUS%20RTU%2FTCP-0a0014?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==&logoColor=ff2079)](https://modbus.org)
 [![OTA Updates](https://img.shields.io/badge/OTA%20Firmware-0a0014?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==&logoColor=ff2079)](https://github.com/abdullahabid04)
 
 ### Tools
@@ -124,7 +121,7 @@
 
 <!-- SKILLS ICONS GRID -->
 <div align="center">
-<img src="https://skillicons.dev/icons?i=php,laravel,python,flutter,dart,cpp,cs,js,vue,fastapi,mysql,dynamodb,mongodb,aws,docker,linux,git,postman,opencv,raspberrypi,arduino&theme=dark&perline=11" />
+<img src="https://skillicons.dev/icons?i=php,laravel,python,flutter,dart,cpp,cs,js,fastapi,mysql,dynamodb,mongodb,aws,docker,linux,git,postman,opencv,raspberrypi,arduino&theme=dark&perline=11" />
 </div>
 
 <img src="./assets/cyberpunk-divider.svg" width="100%"/>
@@ -851,7 +848,7 @@ A collection of early-stage C++ projects focused on algorithmic problem solving 
 
 <br/>
 
-> `// Open to remote backend / full-stack engineering opportunities worldwide.`
+> `// Open to remote Backend Engineering and Software Engineering opportunities worldwide.`
 
 </div>
 
