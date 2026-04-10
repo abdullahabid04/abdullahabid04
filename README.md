@@ -756,16 +756,7 @@ A collection of early-stage C++ projects focused on algorithmic problem solving 
 
 </div>
 
-<div align="center">
-
-| Principle | Approach |
-|-----------|----------|
-| 🔨 **How I learn** | Hands-on first. Build before reading. |
-| 🧩 **How I solve problems** | Trace the full system — firmware to mobile. |
-| 🔁 **How I build** | Ship a working version. Iterate. Improve. |
-| 📄 **How I document** | Every API gets a Postman collection + OpenAPI spec. |
-| 🤝 **How I collaborate** | Contributor, not over-claimer. Team systems, not solo heroics. |
-| ⚖️ **What I value** | Working systems over perfect code. Clarity over cleverness. |
+<img src="./assets/cyberpunk-principles.svg" width="100%"/>
 
 </div>
 
@@ -813,11 +804,7 @@ A collection of early-stage C++ projects focused on algorithmic problem solving 
 
 </div>
 
-<div align="center">
-
-| ♟️ Chess | 🏓 Table Tennis | ⚙️ Cars & PCs | 🏛 History & Archaeology | 🤖 AI Trends | 🌿 Travel |
-|---------|----------------|--------------|--------------------------|-------------|---------|
-| Pattern recognition under pressure | Fast decisions, competitive mindset | How systems and components interact | Long-term thinking, cause and effect at scale | Stays current, builds with it | Perspective outside screens |
+<img src="./assets/cyberpunk-offgrid.svg" width="100%"/>
 
 </div>
 
