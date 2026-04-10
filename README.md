@@ -171,7 +171,7 @@ const abdullahAbid = {
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=abdullahabid04&hide_border=true&background=0a0014&ring=00fff1&fire=ff2079&currStreakLabel=00fff1&sideLabels=9b5de5&currStreakNum=ffffff&sideNums=ffffff&dates=9b5de5&stroke=ff207940" />
+<img src="https://streak-stats.demolab.com?user=abdullahabid04&hide_border=true&background=0a0014&ring=00fff1&fire=ff2079&currStreakLabel=00fff1&sideLabels=9b5de5&currStreakNum=ffffff&sideNums=ffffff&dates=9b5de5&stroke=ff207940" />
 
 </div>
 
