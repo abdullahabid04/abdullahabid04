@@ -158,7 +158,7 @@
     <circle cx="72" cy="81" class="icon-circle" stroke="#ff2079" style="animation: pulseGlow 3s ease-in-out infinite;"/>
     <text x="72" y="81" class="icon-text">🔭</text>
     <text x="100" y="75" class="label-text">BUILDING</text>
-    <text x="100" y="92" class="value-text">SlocSense IoT · SlocSense AI Pipeline · Desktop Automation Software (C#)</text>
+    <text x="100" y="92" class="value-text">Desktop Automation Software (C#)</text>
     <circle cx="810" cy="81" class="status-dot status-building"/>
     <rect x="600" y="78" width="180" height="6" class="progress-bar-bg"/>
     <rect x="600" y="78" width="140" height="6" class="progress-bar-fill" fill="url(#grad1)"/>
