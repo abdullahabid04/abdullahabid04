@@ -1,4 +1,4 @@
-module.exports = function (req, res) {
+module.exports = async function (req, res) {
   const images = [
     "00000150-IMG_1914.jpg",
     "00000152-IMG_1926.jpg",
@@ -37,16 +37,29 @@ module.exports = function (req, res) {
   ];
 
   const randomImage = images[Math.floor(Math.random() * images.length)];
-  
-  // Construct URL to raw GitHub content. 
-  // Make sure to use the raw.githubusercontent URL to bypass any HTML wrappers
   const imageUrl = `https://raw.githubusercontent.com/abdullahabid04/abdullahabid04/main/assets/photos/${randomImage}`;
 
-  // Force strict anti-caching so GitHub Camo re-fetches for every reload
-  res.setHeader('Cache-Control', 's-maxage=0, max-age=0, no-cache, no-store, must-revalidate');
-  res.setHeader('Pragma', 'no-cache');
-  res.setHeader('Expires', '0');
+  try {
+    const response = await fetch(imageUrl);
+    if (!response.ok) {
+      throw new Error('Failed to fetch image');
+    }
+    
+    // Read the image as an arrayBuffer
+    const arrayBuffer = await response.arrayBuffer();
+    const buffer = Buffer.from(arrayBuffer);
 
-  // Perform a temporary redirect to the raw image logic
-  res.redirect(307, imageUrl);
+    // Provide the Image directly instead of a redirect
+    res.setHeader('Content-Type', 'image/jpeg');
+
+    // Force strict anti-caching so GitHub Camo re-fetches it
+    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0, s-maxage=0');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
+    res.setHeader('Surrogate-Control', 'no-store');
+
+    res.send(buffer);
+  } catch (err) {
+    res.status(500).send('Error loading dynamic image');
+  }
 };
