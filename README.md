@@ -29,6 +29,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=abdullahabid04&color=ff2079&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/abdullahabid04)
 [![GitHub followers](https://img.shields.io/github/followers/abdullahabid04?style=for-the-badge&color=00fff1&labelColor=0a0014&label=FOLLOWERS)](https://github.com/abdullahabid04?tab=followers)
 [![GitHub Stars](https://img.shields.io/github/stars/abdullahabid04?style=for-the-badge&color=9b5de5&labelColor=0a0014&label=TOTAL+STARS)](https://github.com/abdullahabid04)
+[![Live Portfolio Website](https://img.shields.io/badge/🌐_LIVE_WEBSITE-abdullahabid04.github.io-38bdf8?style=for-the-badge&logoColor=white&labelColor=0f172a)](https://abdullahabid04.github.io/abdullahabid04/)
 
 </div>
 
